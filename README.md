@@ -10,11 +10,17 @@ Copiar dicha carpeta de desarrollo a una ruta cualquiera, y hacer que Chrome eje
 # Creamos un fichero kiosk.sh dentro de la carpeta, con las siguinetes lineas:
 
   #!/bin/bash
+  
   xset -dpms
+  
   xset s off
+  
   xset s noblank
+  
   unclutter &
+  
   #matchbox-window-manager -use_cursor no -use_titlebar no  &
+  
   chromium-browser -a http://www.google.com -kiosk (cambiar por la url que se precise)
 
 # Creamos un servicio Systemd:
