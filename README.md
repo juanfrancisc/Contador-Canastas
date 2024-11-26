@@ -4,7 +4,7 @@ Canasta Solidaria CBCM
 
 Copiar dicha carpeta de desarrollo a una ruta cualquiera, y hacer que Chrome ejecute contador.html como pagina de inicio
 
-#Instalar:
+# Instalar:
   sudo apt-get install unclutter sed 
 
 Creamos un fichero kiosk.sh dentro de la carpeta, con las siguinetes lineas:
