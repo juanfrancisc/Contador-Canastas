@@ -1,34 +1,42 @@
-
+body {
+    /*background-image:url("./img/fondo.png");*/
+    background-image: linear-gradient(rgb(14, 119, 19),rgb(5, 9, 113),white);
+}
 h1{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
+    color:darkorange
 
 }
 
 h2{
-    font-size: 2rem;
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
 }
 
 main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    /*background-color: brown;*/
+    
 }
 
 main section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
 
 input#mostrador{
     border: none;
     font-size: 15rem;
     text-align: center;
     color: red;
+    background: none;
 
 }
 
@@ -37,6 +45,17 @@ input#alimentos{
     color: red;
     font-size: 10rem;
     text-align: center;
+}
+
+img {
+    width: 15%;
+	/*height: 15%;*/
+	object-fit: scale-down;
+}
+
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 
