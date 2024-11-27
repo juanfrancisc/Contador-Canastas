@@ -1,6 +1,7 @@
 body {
-    /*background-image:url("./img/fondo.png");*/
-    background-image: linear-gradient(rgb(14, 119, 19),rgb(5, 9, 113),white);
+    background-image:url("./img/fondo.png");
+    background-size:cover;
+    /*background-image: linear-gradient(rgb(14, 119, 19),rgb(5, 9, 113),white);*/
 }
 h1{
     display: flex;
