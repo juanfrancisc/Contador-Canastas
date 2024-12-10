@@ -10,8 +10,9 @@
     </head>
     <body>
         <header>
-            <h1>Un canasta, un kilo de alimentos</h1>
             <h2>Contador de canastas</h2>
+            <h1>Un canasta, un donativo de 15€</h1>
+            
             
         </header>
 
@@ -19,13 +20,21 @@
 
             <section>
                 <img src="./img/admin-ajax.png">
-            
-            
-                <input type="text" id="mostrador" value="0" size="4">
+
+                <table>
+                    <tr>
+                        <th><h3>Canastas</h3></th>
+                        <th><h3>Donativo</h3></th>
+                      </tr>
+                      <tr>
+                        <td><input type="text" id="mostrador" value="0" size="3"></td>
+                        <td><input type="text" id="donativo" value="0" size="3"></td>
+                      </tr>
+                </table>
+                
                 <div id="info"></div>
             
-            
-                <img src="./img/fundacionmiguelgarcia.png">
+                <img class="remove-bg" src="./img/fundacionmiguelgarcia.jpeg">
             </section>          
             
         </main>

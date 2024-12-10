@@ -21,11 +21,11 @@ window.onload = function() {
     if (evento.keyCode === 33){
         numero++;
         mostrador.value = numero;
-        alimentos.value = numero;
+        donativo.value=numero*15;
     } else {
         numero--;
         mostrador.value = numero;
-        alimentos.value = numero;
+        donativo.value=numero*15+"€";
     }
 
         
